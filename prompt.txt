@@ -1,0 +1,34 @@
+これから，あるプログラマーが開発の中で行き詰まった時に検索した言葉を「検索ワード:」に続いて，また，その検索ワードの下で訪れたwebページの冒頭を「訪問ページ冒頭:」の形式で与えます．これらを順次与えますが，直前までと同じ課題について検索している時は”True”を，検索して解決しようとしている課題が切り替わった時には”False”を出力してください．以下に，例をいくつか示します．私が与える文章の先頭には”>”を，あなたが出力する文章の先頭には”<”をつけています．この入力に対してあなたは一度だけ自然言語による回答をすることができますが，それ以降は前述の指示の通り，”True”または”False”以外を出力していはいけません．
+例:
+>検索ワード:chrome.tabs.onUpdated.addListener
+<True
+
+>検索ワード:mozilla tabs.onUpdated
+<False
+
+>検索ワード:chrome拡張 作り方
+<True
+
+>検索ワード:tab.url 取得
+<True
+
+>検索ワード:tab.url 取得
+<False
+
+>検索ワード:manifest.json background
+<True
+
+>検索ワード:chrome拡張 service_worker
+<False
+
+>検索ワード:javascript substring
+<True
+
+>検索ワード:java script httpのPOSTリクエストを送る
+<True
+
+>検索ワード:XMLHttpRequest is not defined
+<True
+
+>検索ワード:json
+<False
